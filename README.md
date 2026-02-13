@@ -1,73 +1,78 @@
-# Welcome to your Lovable project
+# Otton Cristais - E-commerce de Cristais e Pedras Preciosas
 
-## Project info
+Este é o repositório do site oficial da **Otton Cristais**, uma plataforma de e-commerce moderna dedicada à venda de cristais lapidados, quartzos, pedras raras e itens de decoração mística.
 
-**URL**: https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID
+O projeto foi desenvolvido com foco em alta performance, design premium e uma experiência de compra fluida e segura.
 
-## How can I edit this code?
+## 🚀 Tecnologias Utilizadas
 
-There are several ways of editing your application.
+Este projeto utiliza as tecnologias mais modernas do ecossistema Web:
 
-**Use Lovable**
+- **React 18**: Biblioteca principal para a interface do usuário.
+- **Vite**: Ferramenta de build extremamente rápida.
+- **TypeScript**: Garantia de tipagem estática e código mais robusto.
+- **Tailwind CSS**: Estilização moderna e responsiva baseada em utilitários.
+- **shadcn/ui**: Componentes de interface de alta qualidade e acessibilidade.
+- **Framer Motion**: Animações e transições suaves para uma experiência "premium".
+- **Lucide React**: Biblioteca de ícones elegantes.
+- **TanStack Query (React Query)**: Gerenciamento de estado asíncrono e cache.
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and start prompting.
+## 🛠️ Como Iniciar o Projeto
 
-Changes made via Lovable will be committed automatically to this repo.
+### Pré-requisitos
 
-**Use your preferred IDE**
+- Node.js (versão 18 ou superior recomendada)
+- npm ou bun
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+### Passos para Instalação
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+1.  **Clone o repositório:**
 
-Follow these steps:
+    ```bash
+    git clone <URL_DO_REPOSITORIO>
+    ```
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+2.  **Acesse a pasta do projeto:**
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+    ```bash
+    cd OttonCristais
+    ```
 
-# Step 3: Install the necessary dependencies.
-npm i
+3.  **Instale as dependências:**
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
-```
+    ```bash
+    npm install
+    ```
 
-**Edit a file directly in GitHub**
+4.  **Inicie o servidor de desenvolvimento:**
+    ```bash
+    npm run dev
+    ```
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+O projeto estará disponível em `http://localhost:5173`.
 
-**Use GitHub Codespaces**
+## 📦 Estrutura do Projeto
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+- `/src/components`: Componentes reutilizáveis da interface.
+- `/src/pages`: Páginas principais da aplicação.
+- `/src/data`: Dados estáticos (ex: catálogo de produtos).
+- `/src/assets`: Imagens, logos e recursos visuais.
+- `/src/lib`: Configurações de bibliotecas externas.
 
-## What technologies are used for this project?
+## 🎨 Design e Funcionalidades
 
-This project is built with:
+- **Responsividade Total**: O site é otimizado para dispositivos móveis, tablets e desktops.
+- **Catálogo Dinâmico**: Filtros por categoria (Quartzo, Raras, Decoração, etc).
+- **Interface Premium**: Uso de gradientes, glassmorphism e micro-animações.
+- **SEO Otimizado**: Estrutura de cabeçalhos e meta tags para melhor ranqueamento.
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+## ☁️ Deploy e Integração Lovable
 
-## How can I deploy this project?
+Este projeto é integrado com a plataforma [Lovable](https://lovable.dev/).
 
-Simply open [Lovable](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and click on Share -> Publish.
+- **Edição**: As alterações podem ser feitas via prompt no Lovable e sincronizadas automaticamente com este repositório.
+- **Publicação**: Para publicar alterações, utilize o botão `Share -> Publish` no dashboard do Lovable.
 
-## Can I connect a custom domain to my Lovable project?
+---
 
-Yes, you can!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
+Desenvolvido por [dmcodesolutions.com.br](https://dmcodesolutions.com.br) com muito carinho e dedicação ❤️ para **Otton Cristais**.
